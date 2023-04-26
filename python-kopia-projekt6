@@ -9,7 +9,7 @@ print(slowo_sprawdzone)
 
 
 
-suma = lista1 *lista2
+wynik = lista1 *lista2
     return lista[0]*mnozenie(lista_1[1:])
 def mnozenie(lista1, lista2):
     if len(lista1) !=len(lista2):
