@@ -1,0 +1,32 @@
+def palindrom(slowo):
+    slowo==slowo.strip()
+    return slowo==slowo[::-1]
+
+slowo_podane=input("Podaj słowo aby sprawdzić czy jest ono palindromem \n")
+slowo_sprawdzone=palindrom(slowo_podane)
+print(slowo_sprawdzone)
+
+
+
+
+suma = lista1 *lista2
+    return lista[0]*mnozenie(lista_1[1:])
+def mnozenie(lista1, lista2):
+    if len(lista1) !=len(lista2):
+        print("Źle listy nie są tej samej długości! ")
+    if len(lista1)==0:
+        return []
+    return [lista1[0]*lista2[0]] + mnozenie(lista1[1:], lista2[1:])
+
+przykład1=mnozenie([1,2,3], [4,5,6])
+przykład2=mnozenie([10,20,30], [10,20,30])
+przykład3=mnozenie([2,4,6], [4,6,8])
+print(przykład1, przykład2, przykład3)
+
+def zamiana(zdanie):
+    return zdanie.replace(" ","_")
+
+zdanie1=zamiana("Kasia ma 3 koty")
+zdanie2=zamiana("Kasia ma kota i psa")
+zdanie3=zamiana("K a s i a ma kota")
+print("Oto zdanie nr1: \n", zdanie1,"\n" "Oto zdanie nr2: \n", zdanie2,"\n" "Oto zdanie nr3:\n", zdanie3)
