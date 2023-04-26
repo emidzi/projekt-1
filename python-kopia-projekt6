@@ -1,9 +1,9 @@
-def palindrom(slowo):
+def mordnilap(slowo):
     slowo==slowo.strip()
     return slowo==slowo[::-1]
 
 slowo_podane=input("Podaj słowo aby sprawdzić czy jest ono palindromem \n")
-slowo_sprawdzone=palindrom(slowo_podane)
+slowo_sprawdzone=mordnilap(slowo_podane)
 print(slowo_sprawdzone)
 
 
@@ -26,7 +26,7 @@ print(przykład1, przykład2, przykład3)
 def zamiana(zdanie):
     return zdanie.replace(" ","_")
 
-zdanie1=zamiana("Kasia ma 3 koty")
-zdanie2=zamiana("Kasia ma kota i psa")
-zdanie3=zamiana("K a s i a ma kota")
+zdanie1=zamiana("Zosia ma 3 koty")
+zdanie2=zamiana("Zosia ma kota i psa")
+zdanie3=zamiana("Z o s i a ma kota")
 print("Oto zdanie nr1: \n", zdanie1,"\n" "Oto zdanie nr2: \n", zdanie2,"\n" "Oto zdanie nr3:\n", zdanie3)
